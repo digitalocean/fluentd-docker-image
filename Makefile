@@ -9,3 +9,5 @@ docker-push: docker-build
 	docker tag "${IMAGE_URL}" "${BASE_IMAGE_URL}:v1.3"
 	docker tag "${IMAGE_URL}" "${BASE_IMAGE_URL}:latest"
 	docker push "${IMAGE_URL}"
+	docker push "${BASE_IMAGE_URL}:v1.3"
+	docker push "${BASE_IMAGE_URL}:latest"
