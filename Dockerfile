@@ -1,4 +1,4 @@
-FROM fluent/fluentd:v1.5.1-1.0@sha256:31a2e95c5c70f2eb946ce6e6158f86a7663ce4e6062e761f389ec085046174c2
+FROM fluent/fluentd:v1.6.2-1.0@sha256:17e3e8a268fda02a417addc542bbe60f81834aeb15d12e85d68425def3063892
 
 USER root
 
